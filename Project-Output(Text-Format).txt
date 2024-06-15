@@ -1,0 +1,150 @@
+Insights:
+** For this project, I am only considering the 12 questions to answer to keep it easier for viewers to read everything and get the overall idea. **
+
+--Not Full Outputs are shown to keep everything limited--
+
+
+
+Q.1 Overall Attrition Rate
+-- The Overall Attrition Rate is 16.12%
+
+Recommendations: 
+- Out of every 100 employees 16 employees are leaving the company, which is significantly a very high number and the organization should take measures to decrease this number as soon as possible.
+
+
+Q.2 Attrition Rate By Age Group
+-- AgeGroup	AttritionRate(in %)
+   10-20	1.0884
+   21-30	5.7143
+   31-40	5.7823
+   41-50	2.3129
+   51-60	1.2245
+
+Recommendations: 
+- Implement Employee Retention Strategies like Carrer Development, Trainings and also focus on Work-life-Balance.
+
+
+Q.3 Attrition By Gender
+-- Gender	AttritionRate(in %)
+   Male		10.2041
+   Female	5.9184
+
+Recommendations: 
+- Investigate potential reasons for higher attrition among males. Consider gender-specific retention strategies and ensure a supportive work environment for all employees.
+
+
+Q.4 Attrition By Job Role
+-- JobRole			Attrition
+   Laboratory Technician	4.2177
+   Sales Executive		3.8776
+   Research Scientist		3.1973
+   Sales Representative		2.2449
+   Human Resources		0.8163
+   Manufacturing Director	0.6803
+   Healthcare Representative	0.6122
+   Manager			0.3401
+   Research Director		0.1361
+
+Recommendations: 
+- Greater retention focus should be on Laboratory Technicians, Sales Executive and Research Scientist as they lead to significantly higher growth of the company.
+
+
+Q.5 Average Monthly Income by Education and Attrition
+-- Education	AVG(Monthly Income)
+ 	1	4360.1613
+	2	4282.5455
+	3	4770.2424
+	4	5335.1552
+	5	5850.2000
+
+Recommendations: 
+- Ensure competitive compensation packages aligned with educational qualifications to retain highly educated employees. Consider salary adjustments and benefits for roles requiring higher education.
+
+
+Q.6 Distance from Home by Job Role and Attrition
+-- Distance	JobRole
+  	 29	Manager
+	 29	Laboratory Technician
+ 	 29	Healthcare Representative
+	 29	Research Scientist
+
+Recommendations: 
+- Explore flexible working arrangements or remote work options for employees with long commutes. Consider offering relocation assistance or providing cab-services to employees.
+
+
+Q.7 Correlation between Performance Rating and Attrition
+-- PerformanceRating	Attrition	AttritionRate(in %)
+	3		Yes		13.6054
+	3		No		71.0204
+	4		Yes		2.5170
+	4		No		12.8571
+
+Recommendations: 
+- Focus on retaining high performers by offering career development opportunities and recognizing their contributions. Address issues that might lead to dissatisfaction among average performers.
+
+
+Q.8 Job Satisfaction Impact on Attrition
+-- EnvironmentSatisfaction	Attrition	AttritionRate(in %)
+   	1			Yes		4.8980
+	1			No		14.4218
+	2			Yes		2.9252
+	2			No		16.5986
+	3			Yes		4.2177
+	3			No		26.5986
+	4			Yes		4.0816
+	4			No		26.2585
+
+Recommendations: 
+- Improve job satisfaction by addressing workplace environment concerns. Conduct regular satisfaction surveys and act on feedback to enhance the work environment.
+
+
+Q.9 Work-Life Balance Impact on Attrition
+-- WorkLifeBalance	AttritionRate
+	1		1.7007
+	2		3.9456
+	3		8.6395
+	4		1.8367
+
+Recommendations: 
+- Promote work-life balance through flexible work hours, remote work options, and wellness programs. Ensure that workload is manageable and provide support for employees to achieve a better balance.
+
+
+Q.10 Average Years at Company for Employees who Left vs. Stayed
+-- Attrition	Avg.YearsAtCompany
+	Yes	5.1308
+	No	7.3690
+
+Recommendations: 
+- Focus on employee engagement and development programs early in an employee's tenure to enhance retention. Provide clear career paths and opportunities for advancement to retain employees for longer periods.
+
+
+Q.11 Analyze the environment satisfaction levels among employees who left versus those who stayed.
+-- EnvironmentSatisfaction	AttritionRate
+	2			2.9252
+	4			4.0816
+	3			4.2177
+	1			4.8980
+
+Recommendations: 
+- Prioritize initiatives to improve environment satisfaction, such as enhancing workplace conditions, fostering a positive culture, and addressing employee concerns promptly.
+
+
+Q.12 Is there a difference in training participation between employees who left and those who stayed?
+-- Attrition	Avg.TrainingTimesLastYear
+	Yes	2.6245
+	No	2.8329
+
+Recommendations: 
+- Increase access to training and development opportunities to retain employees. Ensure that all employees have opportunities for continuous learning and career development.
+
+
+
+Tools/ Skills used in the Project:
+- SQL
+- SQL Workbench
+- Excel
+- Conditional Statements
+- Aggregate Functions
+- Window Functions
+- Data Manipulation Functions
+- Pivot Charts
